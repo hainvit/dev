@@ -1,7 +1,10 @@
 ## Project setup
 * Requirements
   * Python 3.6.x
-
+* Username/password of superuser
+```
+admin/m1tkh!u
+```
 * Install libs
 ```
 $ pip install -r setup.txt
