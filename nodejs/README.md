@@ -85,3 +85,49 @@ $ npm i [package]@[version]
 $ cd ROOT_FOLDE/node_modules/mocha/bin
 $ ./mocha /home/rombk/hainv.work.it/dev/nodejs/mocha/test-calc.js
 ```
+
+## Coding Conventions
+*  Flowing by tuts:
+    * https://github.com/airbnb/javascript
+    * https://www.w3schools.com/js/js_conventions.asp
+* Use eslint
+    * https://eslint.org/docs/rules/
+    * https://github.com/standard/eslint-config-standard
+* Rule basics
+    * IDE: VSCode
+    * Use indent 4 (4 spaces)
+    * Use blacktick with string
+    * Use camelCase for indentifier name
+    * Promise use resolve, reject
+    * Limit in line 80 chars
+    * File name conventions `file-name.js`
+
+### Install ENV
+* IDE:VSCode
+* Extension: Prettier
+* Config with VSCode
+```
+"editor.formatOnSave": false,
+  "[javascript]": {
+  "editor.formatOnSave": true
+  }
+```
+* Setup file `package.json`
+```
+ "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    }
+```
+* Setup eslint commands in package.json
+```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+```
+* Run commands and fix bug
