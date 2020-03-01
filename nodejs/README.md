@@ -6,10 +6,10 @@
     * coding convention with eslint
 
 ## Express
-* Flow by tuts: https://www.tutorialspoint.com/expressjs/index.htm
+* Flowing by tuts: https://www.tutorialspoint.com/expressjs/index.htm
 
 ## Yarn
-* Flow by tuts: https://classic.yarnpkg.com/en/docs/creating-a-project/
+* Flowing by tuts: https://classic.yarnpkg.com/en/docs/creating-a-project/
 * Basic workflow:
     * 1. Create a new project
     * 2. Adding/updating/removing dependencies
@@ -74,3 +74,14 @@ $ npm i [package]@[version]
 * `npm uninstall [name] --save` also removes it from `dependencies` in `package.json`
 * `npm uninstall [name] --save-dev` also removes it from `devDependencies` in `package.json`
 * `npm -g uninstall <name> --save` also removes it globally
+
+## Mocha
+* Flowing by tuts:
+    * https://gist.github.com/soheilhy/867f76feea7cab4f8a84
+    * https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
+    * https://mochajs.org/#-grep-regexp-g-regexp
+* Run test
+```
+$ cd ROOT_FOLDE/node_modules/mocha/bin
+$ ./mocha /home/rombk/hainv.work.it/dev/nodejs/mocha/test-calc.js
+```
