@@ -13,6 +13,7 @@
 * `Dictionary` the data structure in Python with key, value
 
 ## PEP8
+* PIP8 is coding conventions
 * Flowing in pip8 folders
 
 ## Pylint
@@ -26,8 +27,25 @@ $ pip install pylint
 $ pylint strings.py
 ```
 
-## Pyflakes
-
+## PIP
+* PIP is a package manager for Python packages
+* Check pip verssions 
+```
+$ pip --version
+```
+* Install pip packages
+```
+$ pip install [package-name]
+```
+* Uninstall pip packages
+```
+$ pip uninstall [package-name]
+```
+* Show package lists
+```
+$ pip list
+```
+* Refs: https://www.w3schools.com/python/python_pip.asp
 
 # Refs
 * https://www.tutorialspoint.com/python/index.htm
