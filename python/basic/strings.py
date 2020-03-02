@@ -1,2 +1,5 @@
-var1 = 'Hello world'
-print(var1)
+"""todo-hainv
+"""
+
+var_1 = 'Hello world'
+print(var_1)
