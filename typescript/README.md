@@ -32,3 +32,10 @@ $ npm run tsc
 ```
 $ node ./build/hello-world.js
 ```
+
+## Typescript program is composed of
+* Modules
+* Funtions
+* Variables
+* Statements and Expressions
+* Comments
