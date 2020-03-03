@@ -28,5 +28,8 @@ $ redis-cli
 $ sudo snap install redis-desktop-manager
 ```
 
+# Use case
+* Use caching data
+
 # Refs
 * https://www.tutorialspoint.com/redis/index.htm
