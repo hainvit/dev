@@ -5,7 +5,6 @@ and QHBoxLayout (for arranging widgets horizontally).
 """
 
 import sys
-import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QDialog, QPushButton, QVBoxLayout, QHBoxLayout
 
 

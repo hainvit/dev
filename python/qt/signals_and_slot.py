@@ -3,7 +3,6 @@ Signals and slot
 """
 
 import sys
-import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QDialog, QPushButton
 
 

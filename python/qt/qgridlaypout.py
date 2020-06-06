@@ -6,7 +6,6 @@ if specified makes the widget wider or taller than one cell.
 """
 
 import sys
-import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QDialog, QPushButton, QGridLayout
 
 
