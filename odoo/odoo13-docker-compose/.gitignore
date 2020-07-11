@@ -1,5 +1,5 @@
 etc/odoo-server.log
 postgresql
-addons
+# addons
 etc/filestore
 etc/sessions
