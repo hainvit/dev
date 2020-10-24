@@ -1,3 +1,7 @@
+'''
+* Các phần tử trong ds trỏ đến phần tử tiếp theo của ds
+'''
+
 class Node:
     def __init__(self, data_val=None):
         self.data_val = data_val
